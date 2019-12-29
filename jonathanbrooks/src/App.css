@@ -1,0 +1,12 @@
+html, body, #root{
+  height: 100%;
+  width: 100%;
+}
+
+.TBD {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  text-align: center;
+}
