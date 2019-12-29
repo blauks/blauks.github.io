@@ -21,7 +21,7 @@ html, body, #root{
   }
   14%{
     background-color: orange;
-    color: red;
+    color: red; 
   }
   28%{
     background-color: yellow;
