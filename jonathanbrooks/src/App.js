@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import TBD from './components/TBD'
+import FirstPage from './components/FirstPage.js';
+import SecondPage from './components/SecondPage.js';
 
 function App() {
   return (
-    <div className="TBD">
-      <TBD/>
+    <div className="App">
+      <FirstPage className ="firstpage"/>
+      <SecondPage/>
     </div>
   );
 }

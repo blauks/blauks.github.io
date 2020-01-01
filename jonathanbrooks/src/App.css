@@ -1,46 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 html, body, #root{
+  font-family: Raleway;
+  color: white;
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.TBD {
-  display: grid;
-  height: 100%;
-  width: 100%;
-  align-content: center;
-  text-align: center;
-  animation: changeColour 6s infinite;
-  background-color: red;
-  color: violet
-}
-
-@keyframes changeColour{
-  0%{
-    background-color: red;
-    color: violet;
-  }
-  14%{
-    background-color: orange;
-    color: red; 
-  }
-  28%{
-    background-color: yellow;
-    color: orange;
-  }
-  42%{
-    background-color: green;
-    color: yellow;
-  }
-  56%{
-    background-color: blue;
-    color: green;
-  }
-  70%{
-    background-color: indigo;
-    color: blue;
-  }
-  84%{
-    background-color: violet;
-    color: indigo;
-  }
+.firstpage{
+  visibility: hidden;
 }
