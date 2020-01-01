@@ -6,8 +6,8 @@ import SecondPage from './components/SecondPage.js';
 function App() {
   return (
     <div className="App">
-      <FirstPage className ="firstpage"/>
-      <SecondPage/>
+      <FirstPage className="firstpage"/>
+      <SecondPage className="secondpage"/>
     </div>
   );
 }
