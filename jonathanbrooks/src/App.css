@@ -9,6 +9,41 @@ html, body, #root{
   padding: 0;
 }
 
-.firstpage{
-  visibility: hidden;
+
+@media all and (min-width: 1001px){
+  
+  #jegErLat{
+    visibility: hidden;
+    display: none;
+  }
+
+  .firstpage{
+    visibility: hidden;
+  }
+}
+
+
+@media all and (max-width: 1000px){
+
+  #jegErLat{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: black;
+    visibility: visible;
+  }
+
+  .firstpage{
+    visibility: hidden;
+  }
+
+  .secondpage{
+    visibility: hidden;
+  }
+
+}
+
+a:visited{
+  color: blue;
 }
