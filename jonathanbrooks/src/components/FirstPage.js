@@ -4,6 +4,7 @@ import meInWales from '../images/Forside.png';
 import thisGuy from '../images/DenneKaren.png';
 
 function FirstPage() {
+
     return (
         <div className="firstpage">
             <img alt="Me in Wales" src={meInWales} className="backgroundPOne"/>

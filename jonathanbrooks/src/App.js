@@ -4,6 +4,7 @@ import FirstPage from './components/FirstPage.js';
 import SecondPage from './components/SecondPage.js';
 
 function App() {
+
   return (
     <div className="App">
       <p id="jegErLat">Har ikke optimalisert for mobil eller små skjermer enda:)</p>
