@@ -18,7 +18,7 @@ const Text = props => {
         
         <h2>Personlige prosjekter:</h2>
         <p>Denne nettsiden. <InlineLink text="Github-repoet" link="https://github.com/blauks/jonathanbrooks" target="new-tab"/></p>
-        <p>Too be expanded....</p>
+        <p>To be expanded....</p>
 
         <h2>Jobb og verv:</h2>
         <p><u>Drifts- og utviklingskomitéen i Online</u>, Sept. 2018-nå:</p>
@@ -30,12 +30,12 @@ const Text = props => {
                 økonomien sin, som hjelper mye når jeg starter nye prosjekter.
             </p>
         </div>
-        <p><u>Læringsassistent i IT2805 Webteknologi</u>, Sept. 2019 - Des. 2019:</p>
+        <p><u>Læringsassistent i IT2805 Webteknologi NTNU</u>, Sept. 2019 - Des. 2019:</p>
         <div className="jobbOgVerv">
             <p>
                 Som læringsassistent hjalp jeg studenter med problemer relatert til HTML, Javascript og CSS. 
                 Jeg rettet også øvingene til studentene. Denne stillingen har gjort at jeg har blitt bedre på å lære bort, og
-                hvor viktig det er å gå over noe du har gjort flere ganger.
+                sett hvor viktig det er å gå over noe du har gjort flere ganger.
             </p>
         </div>
     </div>

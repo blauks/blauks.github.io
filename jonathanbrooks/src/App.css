@@ -18,7 +18,11 @@ html, body, #root{
   }
 
   .firstpage{
-    visibility: hidden;
+    display: none;
+  }
+
+  .secondpage{
+    display: none;
   }
 }
 

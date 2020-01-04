@@ -1,4 +1,4 @@
-.secondpage{
+.mainSecond{
     display: flex;
     flex-direction: row;
     max-width: 100%;
@@ -17,8 +17,10 @@
 }
 
 .infotext{
+    height: 100vh;
     position: relative;
     left: 15px;
+    overflow: auto;
 }
 
 .infotext p{

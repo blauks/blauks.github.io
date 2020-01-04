@@ -1,0 +1,26 @@
+.thirdpage{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.mainThird{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: gray;
+}
+
+.contact{
+    display: grid;
+    grid-template-rows: 75px 75px 75px;
+    grid-template-columns: 100px 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact p:last-child{
+    width: 200px;
+}

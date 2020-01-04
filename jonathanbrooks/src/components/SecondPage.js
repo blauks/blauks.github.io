@@ -6,9 +6,11 @@ import InDepthText from './InDepthText.js';
 function SecondPage() {
     return(
         <div className="secondpage">
+            <div className="mainSecond">
                 <img className="image" alt="Meg på ski" src={MegPåSki}/>
-            <div className="text">
-                <InDepthText className="infotext"/>
+                <div className="text">
+                    <InDepthText className="infotext"/>
+                </div>
             </div>
         </div>
     )
