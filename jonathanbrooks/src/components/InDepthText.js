@@ -1,5 +1,5 @@
 import React from 'react'
-import InlineLink from './InlineLink.js';
+import Link from './Link.js';
 
 const Text = props => {
     const getYearsFromBirthday = function () {
@@ -12,12 +12,12 @@ const Text = props => {
         <h1>Hei!</h1>
 
         <p>Jeg heter Jonathan Brooks, er {getYearsFromBirthday()} år og studerer Informatikk ved NTNU i Trondheim.</p> 
-        <p>På fritiden liker jeg å kode på diverse småprosjekter, bli med på <InlineLink text ="CTF" link="https://dev.to/molly_struve/learn-how-to-hack-capture-the-flag-for-beginners-744" target="new-tab"/>-konkurranser og hjelpe til der jeg kan i <InlineLink text="Linjeforeningen Online" link="https://online.ntnu.no/" target="new-tab"/>.</p>
+        <p>På fritiden liker jeg å kode på diverse småprosjekter, bli med på <Link text ="CTF" link="https://dev.to/molly_struve/learn-how-to-hack-capture-the-flag-for-beginners-744" target="new-tab"/>-konkurranser og hjelpe til der jeg kan i <Link text="Linjeforeningen Online" link="https://online.ntnu.no/" target="new-tab"/>.</p>
         <p>Teknologiene jeg holder mest på med akkurat nå er React, Javascript, Python og Java, men jeg prøver alltid å lære nye ting!</p>
         <p>Sånn ellers ville jeg sagt at jeg er en jovial og ærlig person som noen ganger prokastinerer litt for mye:)</p>
         
         <h2>Personlige prosjekter:</h2>
-        <p>Denne nettsiden. <InlineLink text="Github-repoet" link="https://github.com/blauks/jonathanbrooks" target="new-tab"/></p>
+        <p>Denne nettsiden. <Link text="Github-repoet" link="https://github.com/blauks/jonathanbrooks" target="new-tab"/></p>
         <p>To be expanded....</p>
 
         <h2>Jobb og verv:</h2>

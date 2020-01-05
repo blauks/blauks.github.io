@@ -17,12 +17,14 @@ html, body, #root{
     display: none;
   }
 
-  .firstpage{
-    display: none;
+  .secondpage{
+    visibility: hidden;
+    position: fixed;
   }
 
-  .secondpage{
-    display: none;
+  .thirdpage{
+    visibility: hidden;
+    position: fixed;
   }
 }
 
@@ -38,16 +40,20 @@ html, body, #root{
     visibility: visible;
   }
 
-  .firstpage{
-    visibility: hidden;
-  }
-
-  .secondpage{
-    visibility: hidden;
+  .firstpage .secondpage .thirdpage{
+    display: none;
   }
 
 }
 
 a:visited{
   color: blue;
+}
+
+@keyframes showPage{
+  to{visibility: visible; position: relative;}
+}
+
+@keyframes hidePage{
+  to{visibility: hidden; position: fixed;}
 }
