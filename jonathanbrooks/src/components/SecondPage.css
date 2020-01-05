@@ -1,15 +1,45 @@
-.secondpage{
+.mainSecond{
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .image{
     max-width: 50%;
-    height: auto;
+    height: 100vh;
 }
 
 .text{
     background-color: rgba(120,120,120,0.9);
     flex-grow: 1;
+}
+
+.infotext{
+    height: 100vh;
+    position: relative;
+    left: 15px;
+    overflow: auto;
+}
+
+.infotext p{
+    width: 90%;
+    font-size: 1.1vw;
+}
+
+.infotext h1{
+    font-size: 1.7vw;
+}
+
+h2{
+    padding-top: 14px;
+    font-size: 1.3vw;
+}
+
+.jobbOgVerv p{
+    padding-top: 0px;
+    padding-left: 7px;
+    font-style: italic;
+    font-size: 1vw;
 }

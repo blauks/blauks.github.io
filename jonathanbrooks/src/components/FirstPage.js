@@ -2,9 +2,9 @@ import React from 'react';
 import './FirstPage.css';
 import meInWales from '../images/Forside.png';
 import thisGuy from '../images/DenneKaren.png';
-import Emoji from './Emoji.js';
 
 function FirstPage() {
+
     return (
         <div className="firstpage">
             <img alt="Me in Wales" src={meInWales} className="backgroundPOne"/>
@@ -12,10 +12,7 @@ function FirstPage() {
             <div className="infotextDiv">
                 <h1 className="name">Jonathan Brooks</h1>
                 <div className="infotextTLDR">
-                    <h2>Student <Emoji emoji="👨‍🎓" label="student"/></h2>
-                    <h2>Programmerer <Emoji emoji="💻" label="computer"/></h2> 
-                    <h2>Liker:</h2>
-                    <h2>- Dataspill og hacking <Emoji emoji="👾" label="alien"/></h2>
+                    <h2>Student og datagutt</h2> 
                 </div>
             </div>
         </div> 

@@ -9,6 +9,51 @@ html, body, #root{
   padding: 0;
 }
 
-.firstpage{
-  visibility: hidden;
+
+@media all and (min-width: 1001px){
+  
+  #jegErLat{
+    visibility: hidden;
+    display: none;
+  }
+
+  .secondpage{
+    visibility: hidden;
+    position: fixed;
+  }
+
+  .thirdpage{
+    visibility: hidden;
+    position: fixed;
+  }
+}
+
+
+@media all and (max-width: 1000px){
+
+  #jegErLat{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: black;
+    visibility: visible;
+  }
+
+  .firstpage .secondpage .thirdpage{
+    display: none;
+  }
+
+}
+
+a:visited{
+  color: blue;
+}
+
+@keyframes showPage{
+  to{visibility: visible; position: relative;}
+}
+
+@keyframes hidePage{
+  to{visibility: hidden; position: fixed;}
 }
