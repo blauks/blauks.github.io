@@ -26,6 +26,15 @@ html, body, #root{
     visibility: hidden;
     position: fixed;
   }
+
+  body{
+    --firstPageVis: visible;
+    --firstePagePos: relative;
+    --secondPageVis: hidden;
+    --secondPagePos: fixed;
+    --thirdPageVis: hidden;
+    --thirdPagePos: fixed;
+  }
 }
 
 
@@ -40,14 +49,37 @@ html, body, #root{
     visibility: visible;
   }
 
-  .firstpage .secondpage .thirdpage{
-    display: none;
+  body{
+    --firstPageVis: hidden;
+    --firstePagePos: fixed;
+    --secondPageVis: hidden;
+    --secondPagePos: fixed;
+    --thirdPageVis: hidden;
+    --thirdPagePos: fixed;
+  }
+
+  .knappOpp, .knappNed{
+    visibility: hidden;
+    position: fixed;
   }
 
 }
 
 a:visited{
   color: blue;
+}
+
+.knappOpp{
+  position: fixed;
+  z-index: 100;
+  top: 85vh;
+  left: 90vw;
+}
+.knappNed{
+  position: fixed;
+  z-index: 100;
+  top: 90vh;
+  left: 90vw;
 }
 
 @keyframes showPage{

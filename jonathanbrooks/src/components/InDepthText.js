@@ -3,8 +3,8 @@ import Link from './Link.js';
 
 const Text = props => {
     const getYearsFromBirthday = function () {
-        let today = new Date()
-        return today.getMonth() <= 9 && today.getDate() < 6 ? today.getFullYear() - 2000 : today.getFullYear() - 1999 
+        let today = new Date();
+        return today.getMonth() >= 9 && today.getDate() >= 6 ? today.getFullYear() - 1999 : today.getFullYear() - 2000;
     }
 
     return (

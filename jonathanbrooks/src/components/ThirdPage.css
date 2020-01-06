@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     height: 100vh;
+    visibility: var(--thirdPageVis);
+    position: var(--thirdPagePos);
 }
 
 .mainThird{

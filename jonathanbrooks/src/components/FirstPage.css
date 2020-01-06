@@ -1,6 +1,8 @@
 .firstpage{
     width: 100%;
     height: 100%;
+    visibility: var(--firstPageVis);
+    position: var(--firstePagePos);
 }
 
 .infotextDiv{ 
@@ -42,7 +44,7 @@
     left: 61%;
     top: 13.4vw;
     width: 100px;
-    animation: hide 5s;
+    animation: hide 4.2s;
 }
 
 @media all and (min-width: 800px){

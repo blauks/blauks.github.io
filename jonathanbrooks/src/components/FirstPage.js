@@ -17,6 +17,6 @@ function FirstPage() {
             </div>
         </div> 
     )
-}
+};
 
-export default FirstPage;
+export {FirstPage};
